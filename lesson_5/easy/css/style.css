@@ -1,0 +1,46 @@
+body {  
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: 'Pacifico', serif;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: #323232;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.u-line {
+  text-decoration: underline;
+}
+
+.img-content {
+  margin-left: 39%;
+}
+
+img {
+  border: 2px solid #ffffff;
+}
