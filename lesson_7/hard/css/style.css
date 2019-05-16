@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: #000000;
-
 }
 
 * {
@@ -11,82 +10,79 @@ body {
 }
 
 .container {
-  width: 1134px;
+  width: 1137px;
   margin: auto;
 }
 
 .main-section {
-  display: flex;
-  justify-content: center;
   margin-top: 77px;
   margin-bottom: 96px;
-}
-
-.book-description {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+ }
+
+.book-description {  
   margin-left: 75px;
   margin-right: 140px;
+  display: flex;
+  flex-direction: column;
 }
 
 .book-name {
+  margin-top: 50px;
   font-size: 48px;
   font-weight: 700;
 }
 
 .book-author {
+  margin-top: -20px;
   font-size: 30px;
-  font-weight: 500;
-  margin-top: 15px;
+  font-weight: 500;  
 }
 
 .about-book {
+  margin-top: 5px;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
 }
 
 .price {
+  margin-top: 30px;
+  margin-bottom: 65px;
   font-size: 48px;
   font-weight: 400;
-  line-height: 27px;
-  margin-top: 47px;
-  margin-bottom: 53px;
+  line-height: 27px;  
 }
 
-.buy {
-  color: #fff;
+.buy {  
   width: 175px;
   height: 67px;
   border-style: none;
   border-radius: 5px;
   background-color: #f05a22;
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
 }
 
 .learn-more {
-  color: #f05a22;
-  font-size: 24px;
+  margin-left: 36px;
   width: 287px;
   height: 67px;
   border-style: none;
   border-radius: 5px;
   border: 2px solid #f05a22;
   background-color: #fff;
+  color: #f05a22;
+  font-size: 24px;
   font-weight: 700;
-  margin-left: 40px;
 }
-
-
-
 
 /*второй блок*/
 
 .delivery {
-
   background-color: #f2f2f2;
-
 }
 
 .delivery-header {
@@ -96,14 +92,13 @@ body {
 }
 
 .delivery-items {
+  margin-top: 75px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 63px;
-  padding-bottom: 100px;
+  align-items: center;  
 }
 
 .delivery-item {
-    text-align: center;
-  
+  text-align: center;  
 }
