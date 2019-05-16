@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #000000;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1134px;
+  margin: auto;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 77px;
+  margin-bottom: 96px;
+}
+
+.book-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+  margin-right: 140px;
+}
+
+.book-name {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.book-author {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.about-book {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 47px;
+  margin-bottom: 53px;
+}
+
+.buy {
+  color: #fff;
+  width: 175px;
+  height: 67px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #f05a22;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.learn-more {
+  color: #f05a22;
+  font-size: 24px;
+  width: 287px;
+  height: 67px;
+  border-style: none;
+  border-radius: 5px;
+  border: 2px solid #f05a22;
+  background-color: #fff;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+
+
+
+/*второй блок*/
+
+.delivery {
+
+  background-color: #f2f2f2;
+
+}
+
+.delivery-header {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 89px;
+}
+
+.delivery-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 63px;
+  padding-bottom: 100px;
+}
+
+.delivery-item {
+    text-align: center;
+  
+}
