@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffffff;
+  background: url(https://get.wallhere.com/photo/synthwave-8-bit-cityscape-pixels-artwork-1473301.jpg);
+}
+
+.container {
+  max-width: 1140px;  
+  min-height: 1050px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px; 
+}
+
+
+.work-item {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.work-item:hover {
+  color: #e1fd61;
+}
