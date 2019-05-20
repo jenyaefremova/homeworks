@@ -23,7 +23,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px; 
+  margin-top: 60px; 
 }
 
 
@@ -36,4 +36,5 @@ body {
 
 .work-item:hover {
   color: #e1fd61;
+  border: 1px dotted #e1fd61;
 }
