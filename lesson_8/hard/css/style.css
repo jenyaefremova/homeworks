@@ -139,15 +139,15 @@ a {
   margin-top: 28px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .people-wrap img {
-  width: 31%;
   margin-right: 1.5%;
-  padding-top: 36px;
-  min-width: 362px;
+  padding-top: 25px;
+  max-width: 362px;
+  max-height: 264px;
 }
-
 
 /*Четвёртый блок*/
 
