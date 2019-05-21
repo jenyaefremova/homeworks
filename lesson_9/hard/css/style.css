@@ -14,13 +14,18 @@ h1 {
   margin-top: 60px;
 }
 
-span {
-  display: block;
+p {
   margin-top: 20px;
   text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
+
 
 .d-flex {
   margin-top: 20px;
 }
 
+.img-box {
+  min-height: 77px;
+}
