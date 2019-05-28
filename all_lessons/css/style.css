@@ -8,22 +8,27 @@ body {
   background: url(https://get.wallhere.com/photo/synthwave-8-bit-cityscape-pixels-artwork-1473301.jpg);
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1140px;  
-  min-height: 1050px;
+  max-height: 1050px;
   margin: auto;
 }
 
 .header {
   text-align: center;
   padding-top: 40px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px; 
+  align-items: center;
+  margin-top: 40px; 
 }
 
 
@@ -32,10 +37,40 @@ body {
   padding: 10px;
   text-decoration: none;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .work-item:hover {
   color: #e1fd61;
   border: 1px dotted #e1fd61;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 980px;  
+    width: 90%;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .homeworks {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work-item {
+    flex-basis: 35%;
+    line-height: 1.8;
+    font-size: 9px;
+  }
+}
+@media (max-width: 567px) {
+  .work-item {
+    flex-basis: 100%;
+    
+  }
+  .image-box {
+    width: 70%;
+  }
 }
